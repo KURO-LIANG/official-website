@@ -1,7 +1,7 @@
 <template>
     <div id="Service">
         <div class="container text-center">
-            <h3>我们的服务</h3>
+            <h3>技术</h3>
             <p style="color:#b2b2b2">The Best Service You Never See</p>
         </div>
         <div class="container">
