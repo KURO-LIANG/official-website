@@ -1,8 +1,7 @@
 <template>
     <div id="Service">
         <div class="container text-center">
-            <h3>技术</h3>
-            <p style="color:#b2b2b2">The Best Service You Never See</p>
+            <h3>技术特点</h3>
         </div>
         <div class="container">
             <div class="Service-container row">
