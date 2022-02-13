@@ -6,7 +6,7 @@
         </div>
         <div class="container">
             <div class="Service-container row">
-                <div class="Service-item col-xs-12 col-sm-6 col-md-3 wow slideInUp" 
+                <div class="Service-item col-xs-12 col-sm-6 col-md-3 wow slideInUp"
                 v-for="(item,index) in serviceList" :key="index" @click="ServiceClick(item.id)">
                     <div class="Service-item-wrapper">
                         <div class="Service-item-top">
@@ -33,24 +33,24 @@ export default {
             serviceList: [
                 {
                     id: 'section-1',
-                    title: '软件定制开发',
-                    eng_title: 'Customize App',
-                    img: require('@/assets/img/service1.jpg')
+                    title: '智能遥控',
+                    eng_title: '',
+                    img: require('@/assets/img/service1.png')
                 },{
                     id: 'section-2',
-                    title: 'IT外包服务',
-                    eng_title: 'Outsourcing',
-                    img: require('@/assets/img/service2.jpg')
+                    title: '防烫壶',
+                    eng_title: '',
+                    img: require('@/assets/img/service2.png')
                 },{
                     id: 'section-3',
-                    title: '网上商城建设',
-                    eng_title: 'eCommerce Site',
-                    img: require('@/assets/img/service3.jpg')
+                    title: '防爆玻璃壶',
+                    eng_title: '',
+                    img: require('@/assets/img/service3.png')
                 },{
                     id: 'section-4',
-                    title: 'iOS应用定制开发',
-                    eng_title: 'iOS App Dev',
-                    img: require('@/assets/img/service4.jpg')
+                    title: '双水源设计',
+                    eng_title: '',
+                    img: require('@/assets/img/service4.png')
                 }
             ]
         }
